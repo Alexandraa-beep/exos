@@ -1,0 +1,6 @@
+number_of_hours_worked_per_day = 10 # L'origine de l'erreur se trouve dans la syntaxe normalement ça devrait être écrit de cette façon: puts "number_of_hours_worked_per_day: # {2 * 5}" 
+number_of_days_worked_per_week = 5 # L'origine de l'erreur se trouve dans la syntaxe normalement ça devrait être écrit de cette façon: puts "number_of_days_worked_per_week: # {2 + 3}"
+number_of_weeks_in_THP = 11 # L'origine de l'erreur se trouve dans la syntaxe normalement ça devrait être écrit de cette façon: puts "number_of_weeks_in_THP: # {5 + 6}"
+
+puts "Travail : #{number_of_hours_worked_per_day * number_of_days_worked_per_week * number_of_weeks_in_THP}" # Les variables devraient être écrites sous forme numérique comme ci-dessus 
+puts "Et en minutes ça fait : #{number_of_minutes_in_an_hour * number_of_hours_worked_per_day * number_of_days_worked_per_week * number_of_weeks_in_THP}" #Les variables devraient être écrites sous forme numérique comme ci-dessus. La variable "number_of_minutes_in_an_hour" n'est pas reconnu dans le terminal car il n'y a pas eu de valeurs attribués pour cet élément donc le terminal ne le reconnait pas 
